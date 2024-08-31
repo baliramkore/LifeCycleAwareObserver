@@ -1,0 +1,4 @@
+-Here We Understood lifecycle of Activity and Observer. 
+-How Observer fallows the lifecycle corresponding to Activity.
+-We have saperated the concern of using saperate things which are not depedent upon activity lifecycle.
+-Observer provides current activity behaviours scope hence we can perform logical operation with observer methods. 
