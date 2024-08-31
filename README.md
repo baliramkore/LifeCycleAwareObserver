@@ -2,5 +2,5 @@
 -How Observer fallows the lifecycle corresponding to Activity.
 -We have saperated the concern of using saperate things which are not depedent upon activity lifecycle.
 -Observer provides current activity behaviours scope hence we can perform logical operation with observer methods. 
--when we start activity then it starts Execution and calls onCreate() from Activity and then onCreate() from Observer but,
--When we press back then it will execute onPause() From Observer and then calls Activity onPause()
+-(Creation) when we start activity then it starts Execution and calls onCreate() from Activity and then onCreate() from Observer but,
+-(Destruction) when we press back then it will execute onPause() From Observer and then calls Activity onPause()
